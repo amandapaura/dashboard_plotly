@@ -3,22 +3,20 @@
 
 ![alt text](https://github.com/amandapaura/dashboard_plotly/blob/main/imagem%20dash.png?raw=true)
 
-Nesse projeto fiz uma amostra de dashboard usando o *Plotly Dash* com dados financeiros do *Yahoo Finance*.
+In this project, I created a sample dashboard using *Plotly Dash* with financial data from *Yahoo Finance*.
 
-O projeto contém 4 módulos dos quais:
+The project contains 4 modules:
 
-O módulo *"findata.py"* gera os dados financeiros que iremos exibir nos gráficos. Contém uma classe que busca os dados dos ativos na api do Yahool Finance, com métodos que fazem calculos financeiros e retornam um dataframe.
+1. The *"findata.py"* module generates the financial data we will display in the graphs. It contains a class that fetches asset data from the Yahoo Finance API, with methods that perform financial calculations and return a dataframe.
 
-Os módulos *"graficos.py"* e *"gera_graficos.py"* são uma fábrica abstrata de diferentes tipos de gráficos. O primeiro módulo gera os graficos (inseri nesse trabalho os gráficos de linha e dispersão) e o segundo cria o layout do gráficos prontos para serem exibidos no dash. 
+2. The *"graficos.py"* and *"gera_graficos.py"* modules are an abstract factory for different types of graphs. The first module generates the graphs (in this work, I included line and scatter plots), and the second creates the layout of the graphs ready to be displayed in Dash.
 
-O módulo *"app.py"* é a construção do dash. Devemos inserir os dados financeiros, criar e grar os gráficos, textos e tudo que quisermos, e pelo Dash do Plotly montar o dashboard. A função __main__ gera o gráfico no localhost. 
+3. The *"app.py"* module is the construction of the Dash app. We need to insert the financial data, create and generate the graphs, texts, and everything we want, and use Plotly Dash to assemble the dashboard. The main function generates the graph on localhost.
 
-Para rodar o grafico basta abrir o terminal no diretorio e dar o comando: 
-*python app.py*
+To run the graph, just open the terminal in the directory and run the command: python app.py
 
-A ideia é que vocês aproveitem a estrutura para brincar e criar diferentes layouts de dashboards. 
+The idea is for you to use the structure to experiment and create different dashboard layouts.
 
 =)
-
 
 
