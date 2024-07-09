@@ -1,7 +1,7 @@
 # dashboard_plotly
 ## <font color='lime'> Codes to create a Dashboard with Plotly - Stock Price Data </font>
 
-![alt text](https://github.com/amandapaura/dashboard_plotly/blob/main/imagemdash.png?raw=true)
+![alt text](https://github.com/amandapaura/dashboard_plotly/blob/main/imagem%20dash.png?raw=true)
 
 Nesse projeto fiz uma amostra de dashboard usando o *Plotly Dash* com dados financeiros do *Yahoo Finance*.
 
