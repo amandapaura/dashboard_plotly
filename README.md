@@ -1,6 +1,8 @@
 # dashboard_plotly
 ## <font color='lime'> Codes to create a Dashboard with Plotly - Stock Price Data </font>
 
+![alt text](https://github.com/amandapaura/dashboard_plotly/blob/main/imagemdash.png?raw=true)
+
 Nesse projeto fiz uma amostra de dashboard usando o *Plotly Dash* com dados financeiros do *Yahoo Finance*.
 
 O projeto contém 4 módulos dos quais:
@@ -17,3 +19,6 @@ Para rodar o grafico basta abrir o terminal no diretorio e dar o comando:
 A ideia é que vocês aproveitem a estrutura para brincar e criar diferentes layouts de dashboards. 
 
 =)
+
+
+
